@@ -4,7 +4,7 @@
 ## Usage
 A dynamic chart is created through the ``ChartDynamicKit`` object.
 
-###Instantiate###
+### Instantiate ###
 
 ```swift
 var chartDynamic = ChartDynamicKit(
@@ -13,26 +13,26 @@ var chartDynamic = ChartDynamicKit(
 ```
 *Note:* ``minLine`` is an ``@IBOutlet`` from the storyboard
 
-###Set Data###
+### Set Data ###
 
 ```swift
 chartDynamic.set(data:myData)
 ```
 *Note:* ``myData`` is an array of ``Double``'s
 
-###Start###
+### Start ###
 
 ```swift
 chartDynamic.start()
 ```
 
-###Delegate###
+### Delegate ###
 
 To get notified when the chart updates or to add a marker to the chart conform to the ``ChartDynamicDelegate``.
 
 The two methods available are:
 
-####``chartDynamicUpdate(index:Int)``####
+#### ``chartDynamicUpdate(index:Int)`` ####
 Called each time the chart changes
 
 ```swift
@@ -42,7 +42,7 @@ func chartDynamicUpdate(index: Int) {
 }
 ```
 
-####``chartDynamicMarkerTag(index: Int)->MarkerTag?``####
+#### ``chartDynamicMarkerTag(index: Int)->MarkerTag?`` ####
 To pass a marker if the ``index`` requires it (or ``nil``)
 
 ```swift
