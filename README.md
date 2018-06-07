@@ -30,7 +30,21 @@ Depending on your data, this will give you a chart that looks something like thi
 
 ![](images/basic-dynamic.gif)
 
-###Delegate###
+### Stop ###
+
+You can easily stop the chart with:
+
+```swift
+chartDynamic.stop()
+```
+
+or let the framework handle state change with:
+
+```swift
+chartDynamic.toggleState()
+```
+
+### Delegate ###
 
 To get notified when the chart updates or to add a marker to the chart conform to the ``ChartDynamicDelegate``:
 
