@@ -68,6 +68,29 @@ Depending on your data and how your ``shouldBeMarked(value)`` method is implemen
 
 ## Installation
 
+The easiest way to use *MinChartKit* is with CocoaPods
+
+### Installation with CocoaPods
+To integrate *ChartDynamicKit* into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+platform :ios, '11.0'
+
+target 'TargetName' do
+  pod 'ChartDynamicKit', :git => 'https://github.com/stevewight/ChartDynamicKit.git'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
 ## Pre-Release Version
 
+This is a pre-release version of *ChartDynamicKit* and although it is stable and should be working in all the above cases, things will be added, changed and potentially break.
+
 ## License
+
+*ChartDynamicKit* is released under an **MIT** license.
