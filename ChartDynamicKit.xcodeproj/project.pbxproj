@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AA09C87D20C87AAD001A5BEF /* ChartDynamicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA09C87B20C87AAD001A5BEF /* ChartDynamicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA09C88E20C96D70001A5BEF /* DynamicRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88420C96D70001A5BEF /* DynamicRange.swift */; };
+		AA09C88F20C96D70001A5BEF /* DynamicState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88520C96D70001A5BEF /* DynamicState.swift */; };
+		AA09C89020C96D70001A5BEF /* MarkerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88620C96D70001A5BEF /* MarkerManager.swift */; };
+		AA09C89120C96D70001A5BEF /* DynamicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88720C96D70001A5BEF /* DynamicData.swift */; };
+		AA09C89220C96D70001A5BEF /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88820C96D70001A5BEF /* Tick.swift */; };
+		AA09C89320C96D70001A5BEF /* DynamicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88920C96D70001A5BEF /* DynamicManager.swift */; };
+		AA09C89420C96D70001A5BEF /* MinMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88B20C96D70001A5BEF /* MinMarker.swift */; };
+		AA09C89520C96D70001A5BEF /* BallonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88C20C96D70001A5BEF /* BallonMarker.swift */; };
+		AA09C89620C96D70001A5BEF /* ChartDynamicKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C88D20C96D70001A5BEF /* ChartDynamicKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA09C87820C87AAD001A5BEF /* ChartDynamicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChartDynamicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA09C87B20C87AAD001A5BEF /* ChartDynamicKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartDynamicKit.h; sourceTree = "<group>"; };
 		AA09C87C20C87AAD001A5BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA09C88420C96D70001A5BEF /* DynamicRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicRange.swift; sourceTree = "<group>"; };
+		AA09C88520C96D70001A5BEF /* DynamicState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicState.swift; sourceTree = "<group>"; };
+		AA09C88620C96D70001A5BEF /* MarkerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerManager.swift; sourceTree = "<group>"; };
+		AA09C88720C96D70001A5BEF /* DynamicData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicData.swift; sourceTree = "<group>"; };
+		AA09C88820C96D70001A5BEF /* Tick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tick.swift; sourceTree = "<group>"; };
+		AA09C88920C96D70001A5BEF /* DynamicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicManager.swift; sourceTree = "<group>"; };
+		AA09C88B20C96D70001A5BEF /* MinMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMarker.swift; sourceTree = "<group>"; };
+		AA09C88C20C96D70001A5BEF /* BallonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallonMarker.swift; sourceTree = "<group>"; };
+		AA09C88D20C96D70001A5BEF /* ChartDynamicKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDynamicKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +64,35 @@
 		AA09C87A20C87AAD001A5BEF /* ChartDynamicKit */ = {
 			isa = PBXGroup;
 			children = (
+				AA09C88D20C96D70001A5BEF /* ChartDynamicKit.swift */,
+				AA09C88320C96D70001A5BEF /* Models */,
+				AA09C88A20C96D70001A5BEF /* Views */,
 				AA09C87B20C87AAD001A5BEF /* ChartDynamicKit.h */,
 				AA09C87C20C87AAD001A5BEF /* Info.plist */,
 			);
 			path = ChartDynamicKit;
+			sourceTree = "<group>";
+		};
+		AA09C88320C96D70001A5BEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA09C88420C96D70001A5BEF /* DynamicRange.swift */,
+				AA09C88520C96D70001A5BEF /* DynamicState.swift */,
+				AA09C88620C96D70001A5BEF /* MarkerManager.swift */,
+				AA09C88720C96D70001A5BEF /* DynamicData.swift */,
+				AA09C88820C96D70001A5BEF /* Tick.swift */,
+				AA09C88920C96D70001A5BEF /* DynamicManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA09C88A20C96D70001A5BEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA09C88B20C96D70001A5BEF /* MinMarker.swift */,
+				AA09C88C20C96D70001A5BEF /* BallonMarker.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +138,7 @@
 				TargetAttributes = {
 					AA09C87720C87AAD001A5BEF = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -130,6 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA09C89020C96D70001A5BEF /* MarkerManager.swift in Sources */,
+				AA09C88E20C96D70001A5BEF /* DynamicRange.swift in Sources */,
+				AA09C89620C96D70001A5BEF /* ChartDynamicKit.swift in Sources */,
+				AA09C89420C96D70001A5BEF /* MinMarker.swift in Sources */,
+				AA09C89220C96D70001A5BEF /* Tick.swift in Sources */,
+				AA09C89320C96D70001A5BEF /* DynamicManager.swift in Sources */,
+				AA09C88F20C96D70001A5BEF /* DynamicState.swift in Sources */,
+				AA09C89120C96D70001A5BEF /* DynamicData.swift in Sources */,
+				AA09C89520C96D70001A5BEF /* BallonMarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +312,7 @@
 		AA09C88120C87AAD001A5BEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sw.ChartDynamicKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +339,7 @@
 		AA09C88220C87AAD001A5BEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
