@@ -26,9 +26,17 @@ chartDynamic.set(data:myData)
 chartDynamic.start()
 ```
 
+Depending on your data, this will give you a chart that looks something like this:
+
+![](images/basic-dynamic.gif)
+
 ###Delegate###
 
-To get notified when the chart updates or to add a marker to the chart conform to the ``ChartDynamicDelegate``.
+To get notified when the chart updates or to add a marker to the chart conform to the ``ChartDynamicDelegate``:
+
+```swift
+chartDynamic.delegate = self
+```
 
 The two methods available are:
 
@@ -53,6 +61,10 @@ func chartDynamicMarkerTag(index: Int)->MarkerTag? {
 	} else { return nil }
 }
 ```
+
+Depending on your data and how your ``shouldBeMarked(value)`` method is implemented, your chart will look something like this:
+
+![](images/marker-dynamic.gif)
 
 ## Installation
 
