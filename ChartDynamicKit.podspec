@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ChartDynamicKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Easily Create Hyper-Minimal Dynamic Charts"
 
   s.homepage     = "https://github.com/stevewight/ChartDynamicKit"
