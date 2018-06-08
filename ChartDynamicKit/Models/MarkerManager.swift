@@ -9,9 +9,14 @@
 import MinChartKit
 import Charts
 
-struct MarkerTag {
-    var name:String
-    var value:Double
+public struct MarkerTag {
+    public var name:String
+    public var value:Double
+    
+    public init(name:String, value:Double) {
+        self.name = name
+        self.value = value
+    }
 }
 
 class MarkerManager: NSObject {

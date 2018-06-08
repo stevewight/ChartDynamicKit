@@ -9,18 +9,18 @@
 import MinChartKit
 import Charts
 
-protocol ChartDynamicDelegate {
+public protocol ChartDynamicDelegate {
     func chartDynamicUpdate(index:Int)
     func chartDynamicMarkerTag(index:Int)->MarkerTag?
 }
 
-class ChartDynamicKit {
-    let line:MinLine
-    var color:UIColor
-    var delegate:ChartDynamicDelegate?
+public class ChartDynamicKit {
+    public let line:MinLine
+    public var color:UIColor
+    public var delegate:ChartDynamicDelegate?
+    public var state = DynamicState.playing
     var dynamicManager:DynamicManager
     var tick = Tick()
-    var state = DynamicState.playing
     
     public init(line:MinLine, color:UIColor = .darkGray) {
         self.line = line

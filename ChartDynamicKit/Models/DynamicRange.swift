@@ -6,7 +6,7 @@
 //  Copyright © 2018 Steve Wight. All rights reserved.
 //
 
-enum DynamicRange:Double {
+public enum DynamicRange:Double {
     case full = 1.0
     case half = 0.5
     case third = 0.33

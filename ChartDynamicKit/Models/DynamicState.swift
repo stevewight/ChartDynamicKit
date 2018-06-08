@@ -6,7 +6,7 @@
 //  Copyright © 2018 Steve Wight. All rights reserved.
 //
 
-enum DynamicState {
+public enum DynamicState {
     case playing
     case stopped
     
