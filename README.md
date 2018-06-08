@@ -28,7 +28,7 @@ chartDynamic.start()
 
 Depending on your data, your chart will look something like this:
 
-![](images/basic-dynamic.gif)
+![](https://raw.githubusercontent.com/stevewight/ChartDynamicKit/master/images/basic-dynamic.gif)
 
 ### Stop ###
 
@@ -78,7 +78,7 @@ func chartDynamicMarkerTag(index: Int)->MarkerTag? {
 
 Depending on your data and how your ``shouldBeMarked(value)`` method is implemented, your chart will look something like this:
 
-![](images/marker-dynamic.gif)
+![](https://raw.githubusercontent.com/stevewight/ChartDynamicKit/master/images/marker-dynamic.gif)
 
 ## On the Sholders...
 *ChartDynamicKit* is built on top of [*``MinChartKit``*](https://github.com/stevewight/MinChartKit) and leverages the ``MinLine`` class at it's core.
@@ -96,7 +96,7 @@ To integrate *ChartDynamicKit* into your Xcode project using CocoaPods, specify 
 platform :ios, '11.0'
 
 target 'TargetName' do
-  pod 'ChartDynamicKit', :git => 'https://github.com/stevewight/ChartDynamicKit.git'
+  pod 'ChartDynamicKit'
 end
 ```
 
