@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Easily Create Hyper-Minimal Dynamic Charts"
 
-  s.homepage     = "http://github.com/stevewight/ChartDynamicKit"
+  s.homepage     = "https://github.com/stevewight/ChartDynamicKit"
   s.license      = "MIT"
   s.author       = { "Steve Wight" => "stevendouglaswight@gmail.com" }
   s.platform     = :ios, "11.0"
 
-  s.source       = { :git => "http://github.com/ChartDynamicKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/stevewight/ChartDynamicKit.git", :tag => "#{s.version}" }
 
   s.source_files = "ChartDynamicKit/**/*.{h,m,swift}"
   s.pod_target_xcconfig = { "SWIFT_VERSION" => "4" }
