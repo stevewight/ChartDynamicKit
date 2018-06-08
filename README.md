@@ -11,7 +11,7 @@ var chartDynamic = ChartDynamicKit(
 	line: minLine
 )
 ```
-*Note:* ``minLine`` is an ``@IBOutlet`` from the storyboard
+*Note:* ``minLine`` is an ``@IBOutlet`` from the storyboard.
 
 ### Set Data ###
 
@@ -26,7 +26,7 @@ chartDynamic.set(data:myData)
 chartDynamic.start()
 ```
 
-Depending on your data, this will give you a chart that looks something like this:
+Depending on your data, your chart will look something like this:
 
 ![](images/basic-dynamic.gif)
 
@@ -79,6 +79,11 @@ func chartDynamicMarkerTag(index: Int)->MarkerTag? {
 Depending on your data and how your ``shouldBeMarked(value)`` method is implemented, your chart will look something like this:
 
 ![](images/marker-dynamic.gif)
+
+## On the Sholders...
+*ChartDynamicKit* is built on top of [*``MinChartKit``*](https://github.com/stevewight/MinChartKit) and leverages the ``MinLine`` class at it's core.
+
+Take a look at the [*``MinChartKit``*](https://github.com/stevewight/MinChartKit) README for more details.
 
 ## Installation
 
